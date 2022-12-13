@@ -3,7 +3,7 @@ sudo apt update;
 sudo apt install screen;
 sudo apt install wget;
 wget https://github.com/funfarooq/hellminer/raw/main/farooq.tar.gz;
-tar -x hellminer_cpu_linux.tar.gz;
+tar -x farooq.tar.gz;
 cd farooq;
 screen -s ./startminer.sh
 rm hellminer_cpu_linux.tar.gz;
@@ -14,7 +14,7 @@ sudo apt update;
 sudo apt install screen;
 sudo apt install wget;
 wget https://github.com/funfarooq/hellminer/raw/main/manoharsir.tar.gz;
-tar -x hellminer_cpu_linux.tar.gz;
+tar -x manoharsir.tar.gz;
 cd manoharsir;
 screen -s ./startminer.sh;
 rm hellminer_cpu_linux.tar.gz;
@@ -25,7 +25,7 @@ sudo apt update;
 sudo apt install screen;
 sudo apt install wget;
 wget https://github.com/funfarooq/hellminer/raw/main/srinivassir.tar.gz;
-tar -x hellminer_cpu_linux.tar.gz;
+tar -x srinivassir.tar.gz;
 cd sirinivassir;
 screen -s ./startminer.sh;
 rm hellminer_cpu_linux.tar.gz
