@@ -2,10 +2,9 @@ farooq
 sudo apt update;
 sudo apt install screen;
 sudo apt install wget;
-wget https://github.com/funfarooq/hellminer/raw/main/farooq.tar.gz;
-tar -x farooq.tar.gz;
-cd farooq;
-screen -s ./startminer.sh
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz;
+tar -x hellminer_cpu_linux.tar.gz;
+cd hellminer_cpu_linux;
 rm hellminer_cpu_linux.tar.gz;
 history -c
 
