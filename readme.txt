@@ -3,9 +3,10 @@ sudo apt update;
 sudo apt install screen;
 sudo apt install wget;
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz;
-tar -x hellminer_cpu_linux.tar.gz;
-cd hellminer_cpu_linux;
+tar -xf hellminer_cpu_linux.tar.gz;
 rm hellminer_cpu_linux.tar.gz;
+history-c
+
 history -c
 
 manohar sir
